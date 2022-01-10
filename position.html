@@ -60,10 +60,26 @@
         border: 1px solid plum;
         margin: 5px;
       }
+      .z-index {
+        border: 3px solid teal;
+      }
+      .z-index #boy {
+        position: relative;
+        top: 80px;
+        z-index: 2;
+      }
+      .z-index #ring {
+        position: relative;
+        z-index: 1;
+      }
+      .z-index #water {
+        position: relative;
+        top: -80px;
+      }
     </style>
   </head>
   <body>
-    <section style="margin-top: 200px;">
+    <section style="margin-top: 200px">
       <h1>This is My Heading</h1>
       <h1>I am learning position</h1>
       <h1>Relative Position</h1>
@@ -174,6 +190,19 @@
       </div>
       <div class="dummy">
         <h3>Dummy Div-10</h3>
+      </div>
+    </section>
+    <hr />
+    <section>
+      <h1>Z-index Position</h1>
+    </section>
+    <section class="swimming z-index">
+      <div id="boy"><img src="./images/boy.svg" alt="" /></div>
+      <div class="swimming" id="ring">
+        <img src="./images/ring.svg" alt="" />
+      </div>
+      <div class="swimming" id="water">
+        <img src="./images/water.svg" alt="" />
       </div>
     </section>
   </body>
