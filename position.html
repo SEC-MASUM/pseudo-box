@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+      section {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .swimming div {
+        width: 200px;
+        border: 1px dashed pink;
+      }
+      .relative #ring {
+        position: relative;
+        top: 0px;
+        left: 50px;
+        background-color: purple;
+      }
+      .relative {
+        border: 3px solid purple;
+      }
+      .absolute {
+        position: relative;
+        border: 3px solid palegreen;
+      }
+
+      .absolute #ring {
+        position: absolute;
+        top: 0px;
+        left: 100px;
+        background-color: palegreen;
+      }
+      .sticky {
+        border: 3px solid peru;
+      }
+      .sticky #ring {
+        position: sticky;
+        top: 0;
+        left: 150px;
+        background-color: peru;
+      }
+      .fixed {
+        border: 3px solid tomato;
+      }
+      .fixed #ring {
+        position: fixed;
+        top: 20px;
+        left: 400px;
+        background-color: tomato;
+      }
+      .dummy {
+        background-color: pink;
+        height: 200px;
+        width: 200px;
+        border: 1px solid plum;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <section style="margin-top: 200px;">
+      <h1>This is My Heading</h1>
+      <h1>I am learning position</h1>
+      <h1>Relative Position</h1>
+    </section>
+    <section class="swimming relative">
+      <div id="boy"><img src="./images/boy.svg" alt="" /></div>
+      <div class="swimming" id="ring">
+        <img src="./images/ring.svg" alt="" />
+      </div>
+      <div class="swimming" id="water">
+        <img src="./images/water.svg" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section>
+      <h1>Absolute Position</h1>
+    </section>
+    <section class="swimming absolute">
+      <div id="boy"><img src="./images/boy.svg" alt="" /></div>
+      <div class="swimming" id="ring">
+        <img src="./images/ring.svg" alt="" />
+      </div>
+      <div class="swimming" id="water">
+        <img src="./images/water.svg" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section>
+      <h1>Sticky Position</h1>
+    </section>
+    <section class="swimming sticky">
+      <div id="boy"><img src="./images/boy.svg" alt="" /></div>
+      <div class="swimming" id="ring">
+        <img src="./images/ring.svg" alt="" />
+      </div>
+      <div class="swimming" id="water">
+        <img src="./images/water.svg" alt="" />
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-1</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-2</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-3</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-4</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-5</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-6</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-7</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-8</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-9</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-10</h3>
+      </div>
+    </section>
+    <hr />
+    <section>
+      <h1>Fixed Position</h1>
+    </section>
+    <section class="swimming fixed">
+      <div id="boy"><img src="./images/boy.svg" alt="" /></div>
+      <div class="swimming" id="ring">
+        <img src="./images/ring.svg" alt="" />
+      </div>
+      <div class="swimming" id="water">
+        <img src="./images/water.svg" alt="" />
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-1</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-2</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-3</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-4</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-5</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-6</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-7</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-8</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-9</h3>
+      </div>
+      <div class="dummy">
+        <h3>Dummy Div-10</h3>
+      </div>
+    </section>
+  </body>
+</html>
