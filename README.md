@@ -1,3 +1,4 @@
+> \mielston_01_personal_portfolio\mod05-5_day_007_bonus\pseudo-box
 # pseudo-box
 
 Text Instruction [Important] : Module 5.5: [Bonus] Box model, pseudo class, position
